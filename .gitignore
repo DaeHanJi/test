@@ -1,0 +1,31 @@
+/target/
+.settings
+.project
+.classpath
+.svn
+.DS_Store
+/bin/
+
+### macOS ###
+*.DS_Store
+.AppleDouble
+.LSOverride
+.tern-project
+
+/src/main/java/cha/idea
+/.pmd
+/reports/
+/kakao_pmd.pmd
+
+.idea/
+*.iml
+rebel.xml
+
+classes
+*.jar
+out
+
+### 개발 소스 확인용 - 추후 삭제 ###
+webapp/WEB-INF/jsp/agent/AIR/INT/cal_backup.jsp
+webapp/js/agent/AIR/INT/AIRINTTRP0100100010_calbackup.js
+webapp/sample/FlightInfoDetail_Reservation_backup.xsl
